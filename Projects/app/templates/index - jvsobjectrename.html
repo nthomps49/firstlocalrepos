@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>HTML5</title>
+<script type="text/javascript">
+    name = prompt("Please enter your name");
+    alert("Welcome to Chip Diesel's website, " + name + "!");
+    function RunMe() {
+        alert(document.getElementById("output").innerHTML);
+        var a = "The quick brown fox jumped over the lazy dogs";
+        document.getElementById("output").innerHTML = a;
+        document.getElementById("btn1").value = "Submit";
+    }
+</script>
+</head>
+<body>
+<input type="button" id="btn1" value="Submit" onclick="RunMe(this)" />
+<span id="output">This is where text goes</span>
+</body>
+</html>
