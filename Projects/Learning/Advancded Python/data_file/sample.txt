@@ -1,3 +1,0 @@
-Hello Everyone!
-Welcome to skillsoft.
-This is a tutorial for file operations.
